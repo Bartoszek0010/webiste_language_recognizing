@@ -11,6 +11,7 @@
 		BB27B8842258F7A700E69C86 /* FileReader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB27B8822258F7A700E69C86 /* FileReader.cpp */; };
 		BB27B8872258F8B900E69C86 /* TxtFileReader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB27B8852258F8B900E69C86 /* TxtFileReader.cpp */; };
 		BBC94E1F2259091700B32B21 /* LanguageDB.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBC94E1D2259091700B32B21 /* LanguageDB.cpp */; };
+		BBD98D3C225A187F00A9012F /* ReadHTML.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBD98D3A225A187F00A9012F /* ReadHTML.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -34,6 +35,8 @@
 		BB27B8862258F8B900E69C86 /* TxtFileReader.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = TxtFileReader.hpp; sourceTree = "<group>"; };
 		BBC94E1D2259091700B32B21 /* LanguageDB.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LanguageDB.cpp; sourceTree = "<group>"; };
 		BBC94E1E2259091700B32B21 /* LanguageDB.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LanguageDB.hpp; sourceTree = "<group>"; };
+		BBD98D3A225A187F00A9012F /* ReadHTML.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ReadHTML.cpp; sourceTree = "<group>"; };
+		BBD98D3B225A187F00A9012F /* ReadHTML.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ReadHTML.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +76,8 @@
 				BB27B8862258F8B900E69C86 /* TxtFileReader.hpp */,
 				BBC94E1D2259091700B32B21 /* LanguageDB.cpp */,
 				BBC94E1E2259091700B32B21 /* LanguageDB.hpp */,
+				BBD98D3A225A187F00A9012F /* ReadHTML.cpp */,
+				BBD98D3B225A187F00A9012F /* ReadHTML.hpp */,
 			);
 			path = language_recognizing;
 			sourceTree = "<group>";
@@ -133,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BBD98D3C225A187F00A9012F /* ReadHTML.cpp in Sources */,
 				BB27B8872258F8B900E69C86 /* TxtFileReader.cpp in Sources */,
 				BBC94E1F2259091700B32B21 /* LanguageDB.cpp in Sources */,
 				BB27B8842258F7A700E69C86 /* FileReader.cpp in Sources */,

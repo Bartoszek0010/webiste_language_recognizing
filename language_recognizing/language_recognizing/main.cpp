@@ -7,8 +7,11 @@
 //
 
 #include <iostream>
+
 #include "FileReader.hpp"
 #include "TxtFileReader.hpp"
+#include "LanguageDB.hpp"
+#include "ReadHTML.hpp"
 using namespace std;
 
 void printMap(map<string, int> map){
@@ -18,23 +21,33 @@ void printMap(map<string, int> map){
 }
 
 int main(int argc, const char * argv[]) {
-    using reader = unique_ptr<FileReader>;
-    //english
-    reader txtReaderEnglish = make_unique<TxtFileReader>();
-    txtReaderEnglish->setFileName("english2cpp.txt");
-    map<string, int> languageMapEnglish = txtReaderEnglish->readText();
-    //polish
-    reader txtReaderPolish = make_unique<TxtFileReader>();
-    txtReaderPolish->setFileName("polish2cpp.txt");
-    map<string, int> languageMapPolish = txtReaderPolish->readText();
-    //spanish
-    reader txtReaderSpanish = make_unique<TxtFileReader>();
-    txtReaderSpanish->setFileName("spanish2cpp.txt");
-    map<string, int> languageMapSpanish = txtReaderSpanish->readText();
-    //italian
-    reader txtReaderItalian = make_unique<TxtFileReader>();
-    txtReaderItalian->setFileName("italian2cpp.txt");
-    map<string, int> languageMapEItalian = txtReaderItalian->readText();
-    printMap(languageMapPolish);
+    LanguageDB languages = LanguageDB();
+    ReadHTML html = ReadHTML();
+    
+    // check recognizing language
+//    string lan = languages.checkBigramsCorrect("Witam w moim domu");
+//    cout<<lan;
+    
+    
+    // check reading only <body>...</body>
+//    html.readBodyText("<!DOCTYPE html><html><body><h1>My First Heading</h1><p>My first paragraph.</p></body></html>");
+//    string body = html.getBodyText();
+//    cout<<body<<endl;
+    
+    
+    // again reading only body but from the file and recognizing language
+//    ifstream file("htmlTestFile.html.rtf");
+//    string fullHtml = "", tempText;
+//    while(!file.eof()){
+//        file>>tempText;
+//        fullHtml += tempText;
+//        fullHtml += " ";
+//    }
+//    cout<<fullHtml<<endl;
+//    html.readBodyText(fullHtml);
+//    string body = html.getBodyText();
+//    cout<<body<<endl;
+//    string lan = languages.checkBigramsCorrect(body);
+//    cout<< lan;
     return 0;
 }

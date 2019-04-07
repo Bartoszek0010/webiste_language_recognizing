@@ -14,18 +14,24 @@
 #include <vector>
 #include <string>
 #include <regex>
+
+#include "FileReader.hpp"
+#include "TxtFileReader.hpp"
 //#include <wstring>
 
 using namespace std;
 class LanguageDB{
 private:
     vector<map<string, int>> languages;
+    vector<string> languagesNames;
+    using reader = unique_ptr<FileReader>;
 public:
     LanguageDB();
     void addLanguage(map<string, int> map){
         languages.push_back(map);
     }
-    int checkBigramsCorrect(int index, string text);
+    string checkBigramsCorrect(string text);
     vector<string> text2array(string text);
+    int maxElement(vector<int> vec);
 };
 #endif /* LanguageDB_hpp */

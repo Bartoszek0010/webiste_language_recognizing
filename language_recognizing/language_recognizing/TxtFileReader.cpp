@@ -12,7 +12,7 @@ using namespace std;
 
 std::map<std::string, int> TxtFileReader::readText(){
     ifstream dictionary(fileName);
-    cout<<fileName;
+//    cout<<fileName;
     if(!dictionary){
         throw "This file does not exist.";
     }
