@@ -29,15 +29,21 @@ string getUrl(){
 int main(int argc, const char * argv[]) {
     LanguageDB languages = LanguageDB();
     ReadHTML html = ReadHTML();
+    
     // get url to website, download html  and save to file, read body of html and recognize language
 //    html.setWebsite(getUrl());
 //    html.readAndSave();
 //    string htmlText = html.readHtmlFromFile();
-//    html.readBodyText(htmlText);
+//    try{
+//        html.readBodyText(htmlText);
+//    } catch (const char* e){
+//        cerr<<e<<endl;
+//    }
 //    string body = html.getBodyText();
-//    cout<<body<<endl;
-//    string lan = languages.checkBigramsCorrect(htmlText);
+//    string lan = languages.checkBigramsCorrect(body);
 //    cout<<lan<<endl;
+    
+    
     // check recognizing language
 //    string lan = languages.checkBigramsCorrect("Witam w moim domu");
 //    cout<<lan;
@@ -57,7 +63,6 @@ int main(int argc, const char * argv[]) {
 //        fullHtml += tempText;
 //        fullHtml += " ";
 //    }
-//    cout<<fullHtml<<endl;
 //    html.readBodyText(fullHtml);
 //    string body = html.getBodyText();
 //    cout<<body<<endl;

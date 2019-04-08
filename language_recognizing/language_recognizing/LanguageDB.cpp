@@ -39,6 +39,7 @@ string LanguageDB::checkBigramsCorrect(string text){
         sums.push_back(0);
         for(int i=0; i<textVec.size() - 1; i++){
             string tempText = textVec.at(i) + " " + textVec.at(i + 1);
+//            cout<<tempText<< " "<<languages.at(j)[tempText]<<endl;
             sums.at(j) += languages.at(j)[tempText];
         }
     }

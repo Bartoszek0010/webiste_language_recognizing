@@ -23,6 +23,8 @@ public:
     void readBodyText(string htmlText);
     int findBody(string text);
     int findEndBody(string text);
+    int findParag(string text);
+    int findEndParag(string text);
     string getBodyText(){ return bodyText; }
     void setWebsite(string website){ this->website = website; }
     void readAndSave();
