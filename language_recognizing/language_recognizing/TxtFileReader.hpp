@@ -12,7 +12,6 @@
 #include <stdio.h>
 #include "FileReader.hpp"
 class TxtFileReader : public FileReader {
-private:
 public:
     std::map<std::string, int> readText();
 };

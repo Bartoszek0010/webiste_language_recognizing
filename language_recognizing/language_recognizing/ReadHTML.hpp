@@ -11,15 +11,21 @@
 
 #include <stdio.h>
 #include <string>
+#include "FileReader.hpp"
 using namespace std;
 class ReadHTML {
 private:
     string bodyText = "";
+    string website = "";
+    string fileName = "html.txt";
 public:
     ReadHTML();
     void readBodyText(string htmlText);
     int findBody(string text);
     int findEndBody(string text);
     string getBodyText(){ return bodyText; }
+    void setWebsite(string website){ this->website = website; }
+    void readAndSave();
+    string readHtmlFromFile();
 };
 #endif /* ReadHTML_hpp */

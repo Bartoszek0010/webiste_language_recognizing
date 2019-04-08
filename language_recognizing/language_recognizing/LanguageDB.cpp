@@ -7,7 +7,7 @@
 //
 
 #include "LanguageDB.hpp"
-
+#include <iostream>
 LanguageDB::LanguageDB(){
     //english
     reader txtReaderEnglish = make_unique<TxtFileReader>();
@@ -42,6 +42,7 @@ string LanguageDB::checkBigramsCorrect(string text){
             sums.at(j) += languages.at(j)[tempText];
         }
     }
+    
     int correctLanguage = maxElement(sums);
     if(sums.at(correctLanguage) == 0){
         throw "Can't recognize this language";
@@ -51,7 +52,7 @@ string LanguageDB::checkBigramsCorrect(string text){
 
 int LanguageDB::maxElement(vector<int> vec){
     int maxIndex = 0;
-    for(int i = 0; i< vec.size(); i++){
+    for(int i = 0; i < vec.size(); i++){
         if(vec.at(i) > vec.at(maxIndex)){
             maxIndex = i;
         }

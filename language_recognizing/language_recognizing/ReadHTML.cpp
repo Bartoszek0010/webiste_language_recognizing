@@ -43,3 +43,22 @@ int ReadHTML::findEndBody(string text){
         return int(found);
     return -1;
 }
+
+void ReadHTML::readAndSave(){
+    string command = "curl " + website + " --output " + fileName;
+    system(command.c_str());
+}
+
+
+string ReadHTML::readHtmlFromFile(){
+    ifstream file(fileName);
+    string fullText = "", tempText;
+    if(!file){
+        throw "This file does not exist";
+    }
+    while(!file.eof()){
+        file>>tempText;
+        fullText += tempText + " ";
+    }
+    return fullText;
+}

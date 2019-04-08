@@ -19,11 +19,25 @@ void printMap(map<string, int> map){
         cout<<x.first<<" "<<x.second<<endl;
     }
 }
+// ask user to input url to website
+string getUrl(){
+    string url;
+    cin>>url;
+    return url;
+}
 
 int main(int argc, const char * argv[]) {
     LanguageDB languages = LanguageDB();
     ReadHTML html = ReadHTML();
-    
+    // get url to website, download html  and save to file, read body of html and recognize language
+//    html.setWebsite(getUrl());
+//    html.readAndSave();
+//    string htmlText = html.readHtmlFromFile();
+//    html.readBodyText(htmlText);
+//    string body = html.getBodyText();
+//    cout<<body<<endl;
+//    string lan = languages.checkBigramsCorrect(htmlText);
+//    cout<<lan<<endl;
     // check recognizing language
 //    string lan = languages.checkBigramsCorrect("Witam w moim domu");
 //    cout<<lan;
