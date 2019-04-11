@@ -42,7 +42,9 @@ int main(int argc, const char * argv[]) {
     string body = html.getBodyText();
     string lan;
     try{
-         lan = languages.checkBigramsCorrect(body);
+//        lan = languages.checkBigramsCorrectLet2(body); // letters, check if exists only
+//        lan = languages.checkBigramsCorrectLet(body); // letters, add to sum number of repeated from dictionary
+//        lan = languages.checkBigramsCorrect(body); // words, add to sum number of repeated from dictionary
     } catch(const char* e){
         cerr<<e<<endl;
     }

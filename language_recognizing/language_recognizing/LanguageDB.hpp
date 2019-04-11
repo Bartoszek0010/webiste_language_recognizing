@@ -34,6 +34,7 @@ public:
     }
     string checkBigramsCorrect(string text);
     string checkBigramsCorrectLet(string text);
+    string checkBigramsCorrectLet2(string text);
     vector<string> text2array(string text);
     int maxElement(vector<int> vec);
 };

@@ -47,7 +47,7 @@ LanguageDB::LanguageDB(){
     txtReaderItalianLet->setFileName("italian2cpp_let.txt");
     languages_let.push_back(txtReaderItalianLet->readText());
 }
-
+// this method find a tempText(2 words) in map and add to sum number of this key's in dictionary
 string LanguageDB::checkBigramsCorrect(string text){
     vector<int> sums;
     vector<string> textVec = text2array(text);
@@ -66,7 +66,7 @@ string LanguageDB::checkBigramsCorrect(string text){
     }
     return languagesNames.at(correctLanguage);
 }
-
+// this method find a tempText(2 letters) in map and add to sum number of this key's in dictionary
 string LanguageDB::checkBigramsCorrectLet(string text){
     vector<int> sums;
     cout<<languages_let.size()<<endl;
@@ -80,6 +80,28 @@ string LanguageDB::checkBigramsCorrectLet(string text){
             sums.at(j) += languages_let.at(j)[tempText];
         }
     }
+    int correctLanguage = maxElement(sums);
+    if(sums.at(correctLanguage) == 0){
+        throw "Can't recognize this language";
+    }
+    return languagesNames.at(correctLanguage);
+}
+// this method find a tempText in map and only add 1 (exists in dictionary)
+string LanguageDB::checkBigramsCorrectLet2(string text){
+    vector<int> sums;
+    for(int j=0; j<languages_let.size();j++){
+        sums.push_back(0);
+        for(int i=0; i<text.length() - 1; i++){
+            string tempText;
+            tempText += text[i];
+            tempText += text[i + 1];
+            if(languages_let.at(j).find(tempText) != languages_let.at(j).end()){
+                sums.at(j) += 1;
+            }
+        }
+        cout<<sums.at(j)<<endl;
+    }
+    
     int correctLanguage = maxElement(sums);
     if(sums.at(correctLanguage) == 0){
         throw "Can't recognize this language";
