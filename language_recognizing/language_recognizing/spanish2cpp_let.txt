@@ -1,0 +1,998 @@
+
+
+ 994
+
+M 127
+MA 131
+AN 143
+NF 100
+FR 100
+RE 102
+ED 100
+DO 139
+O, 2
+,  707
+ D 53
+DR 1
+RA 23
+AM 3
+A  47
+ E 114
+EN 23
+N  10
+ T 18
+TR 4
+ES 78
+S  14
+ A 82
+AC 7
+CT 6
+TO 13
+OS 13
+S, 1
+,
+ 157
+
+  441
+   2234
+ P 43
+Po 19
+or 623
+r  469
+ L 38
+Lo 18
+rd 97
+d  77
+ B 10
+By 8
+yr 8
+ro 582
+on 740
+n. 32
+.
+ 584
+
+T 21
+AD 68
+DU 1
+UC 1
+CC 1
+CI 3
+IO 3
+ON 2
+ C 37
+CA 34
+AS 8
+ST 16
+TE 7
+EL 97
+LL 1
+LA 20
+NA 12
+A. 18
+
+E 132
+En 32
+n  1002
+ e 1288
+el 775
+l  598
+ c 788
+ci 505
+ie 601
+lo 682
+o  1721
+ y 484
+y  488
+en 1398
+ l 1195
+la 1029
+a  2219
+ t 649
+ti 362
+er 1165
+rr 172
+ra 972
+a
+ 314
+ h 544
+ha 345
+ay 62
+ m 821
+mi 480
+il 158
+co 605
+os 1396
+sa 280
+as 901
+s  1973
+ q 553
+qu 748
+ue 1066
+e  2411
+ v 411
+vu 61
+es 1546
+st 703
+tr 409
+s
+ 361
+ f 161
+fi 96
+so 403
+of 45
+fo 36
+ta 617
+am 232
+mp 129
+po 353
+oc 146
+ d 1247
+du 57
+ud 61
+da 440
+an 737
+ H 17
+HO 1
+OR 34
+O. 104
+
+P 20
+Pa 12
+ar 755
+ri 445
+is 349
+s, 251
+Li 1
+ib 66
+br 294
+re 928
+ia 440
+Am 2
+me 465
+ic 163
+ca 320
+na 480
+a, 144
+ 1 2
+18 1
+83 1
+30 1
+0. 1
+PE 3
+ER 38
+RS 1
+SO 6
+S. 26
+
+U 11
+UN 10
+AZ 21
+ZA 23
+R  15
+DE 25
+E  10
+ G 16
+GA 2
+MU 2
+UZ 2
+L  87
+AB 34
+BA 34
+D  1
+ S 39
+SA 1
+ M 62
+AU 1
+UR 1
+RI 53
+IC 1
+NU 10
+UE 10
+L. 8
+
+H 29
+HE 16
+RM 16
+N. 19
+
+L 41
+NC 12
+NT 15
+TA 15
+LO 8
+AL 2
+LP 2
+
+A 30
+AR 6
+IM 19
+
+N 40
+NE 14
+EM 14
+ME 27
+SI 15
+IS 14
+TI 15
+IN 19
+NO 16
+SP 36
+PI 35
+IR 35
+IT 36
+TU 36
+US 5
+La 43
+sc 111
+ce 339
+ s 1022
+se 572
+ r 255
+ep 60
+pr 196
+nt 621
+ed 263
+di 292
+io 375
+de 1523
+Al 12
+lp 15
+pe 329
+ u 315
+un 540
+ve 258
+ec 330
+ll 212
+Ma 53
+nf 79
+fr 71
+do 777
+ o 235
+ot 94
+n
+ 150
+mo 392
+s. 150
+
+D 9
+Dr 1
+ma 436
+ a 897
+ac 275
+ct 56
+to 530
+O  29
+ I 12
+I, 3
+SC 10
+CE 14
+PR 13
+ [ 51
+[M 8
+ol 154
+ g 94
+ga 125
+al 441
+le 387
+ig 154
+gu 183
+uo 9
+o
+ 299
+o. 143
+.  276
+Es 65
+ n 460
+no 678
+ch 135
+he 176
+e. 95
+.] 49
+]
+ 50
+Mi 22
+i  214
+pa 308
+va 119
+ap 54
+ag 105
+rs 73
+e; 21
+;  178
+ p 841
+r
+ 82
+
+m 106
+ui 180
+ea 87
+ni 195
+im 173
+su 287
+u  224
+lu 64
+uz 17
+z
+ 4
+bu 38
+nd 263
+a; 39
+od 253
+dr 44
+ur 122
+
+t 74
+em 230
+om 254
+sv 9
+Si 17
+e
+ 333
+
+q 75
+rm 150
+o, 194
+
+e 163
+mb 172
+ba 160
+rg 51
+id 368
+si 307
+ae 22
+au 86
+us 261
+mu 124
+ul 87
+lt 51
+it 175
+tu 307
+d
+ 20
+
+d 185
+ns 105
+af 10
+fl 15
+li 137
+ge 80
+lm 54
+cu 190
+ua 95
+bl 115
+
+r 25
+ir 308
+r. 39
+az 82
+zo 68
+ad 546
+oj 33
+jo 75
+
+s 123
+in 353
+gi 68
+sm 68
+o; 54
+go 107
+oy 24
+vi 275
+iv 70
+vo 113
+eg 90
+i
+ 25
+
+a 120
+sp 204
+ez 59
+zc 20
+ho 155
+
+i 89
+iA 22
+Ah 9
+h! 11
+!  89
+ i 240
+eb 54
+be 109
+ab 259
+bi 153
+o! 16
+
+c 95
+nc 220
+ob 158
+fa 55
+at 124
+l
+ 85
+
+v 48
+d. 13
+El 34
+rb 20
+bo 43
+a. 96
+
+F 6
+Fi 1
+hu 49
+um 63
+cr 99
+et 134
+av 76
+ya 67
+
+y 67
+pi 169
+pu 135
+za 118
+rl 71
+te 660
+o: 23
+:
+ 13
+ii 4
+nu 128
+ut 32
+s! 27
+He 18
+ne 240
+ b 126
+nh 2
+r, 46
+rt 198
+ . 31
+.. 195
+sf 13
+cc 15
+n! 14
+s; 60
+;
+ 39
+
+n 80
+ng 92
+ai 44
+i: 2
+iu 9
+n, 47
+l, 31
+
+l 115
+eo 53
+uv 11
+De 19
+aq 33
+ld 19
+ N 22
+No 42
+oz 43
+y
+ 46
+nz 20
+lg 37
+op 43
+
+S 27
+Se 21
+
+h 64
+z; 3
+gl 19
+fu 69
+ O 8
+Oc 5
+rv 28
+uc 58
+ Y 13
+Yo 19
+
+o 34
+ao 13
+d! 2
+!
+ 33
+[U 7
+Un 21
+iN 2
+a! 20
+z  36
+i. 7
+ei 35
+up 29
+e, 85
+hi 49
+iz 27
+ex 19
+xi 17
+rn 73
+
+p 118
+eq 4
+a: 10
+:  63
+[A 2
+Ap 7
+nm 23
+ov 18
+s: 17
+:] 1
+U. 31
+Mo 6
+ub 65
+rp 15
+zu 3
+Au 5
+nq 22
+yo 95
+oi 21
+nj 6
+ju 33
+iq 9
+pl 55
+ V 11
+VO 1
+OZ 1
+Z  1
+SE 8
+EG 5
+GU 5
+ND 5
+II 11
+e- 2
+-B 1
+Bl 1
+rc 39
+sd 12
+ev 67
+sq 12
+u
+ 33
+r; 9
+ej 68
+ja 84
+ip 29
+ ? 45
+?Q 24
+Qu 39
+s? 30
+?
+ 66
+RC 4
+nv 36
+rf 7
+if 28
+l. 12
+cl 22
+
+C 8
+CU 2
+UA 2
+RT 3
+
+f 25
+bt 6
+uy 63
+by 1
+yu 4
+ug 30
+Or 1
+
+Q 6
+QU 2
+UI 2
+
+Y 14
+ru 42
+ef 30
+Pi 4
+iR 2
+?P 6
+rq 28
+rz 13
+d? 3
+EP 2
+PT 2
+MO 2
+Nu 3
+l: 2
+
+u 33
+
+g 13
+fe 66
+
+b 12
+i, 15
+aj 42
+u, 6
+eu 5
+u. 6
+o? 20
+
+? 52
+?q 8
+IE 1
+ET 1
+Ho 2
+ij 23
+lv 48
+?E 8
+e? 8
+Le 3
+ee 15
+dl 5
+n; 14
+?N 5
+?L 3
+a? 15
+e: 10
+i; 8
+ j 31
+ R 4
+Re 9
+dm 23
+y. 2
+Ha 8
+iM 7
+?  27
+To 8
+?n 5
+gn 32
+Ni 3
+Oi 1
+lz 2
+gr 77
+pt 3
+[E 13
+iO 5
+?s 1
+n? 4
+ ( 5
+(_ 2
+_l 1
+e_ 1
+_) 1
+). 1
+Cu 11
+ji 2
+uh 2
+bj 11
+je 28
+og 14
+nr 6
+ls 7
+d, 33
+Ca 2
+Pe 14
+sl 5
+ox 1
+I. 5
+ J 6
+Ju 4
+gf 2
+
+B 1
+Bu 1
+Y  14
+?p 7
+ U 7
+lc 15
+sg 11
+Ya 6
+e! 15
+iQ 6
+ z 2
+!. 3
+qn 2
+[L 6
+Ll 4
+R. 18
+bs 9
+Su 10
+Ac 3
+[S 3
+iE 8
+iT 3
+Te 8
+iy 5
+r! 5
+iC 4
+dv 2
+lf 1
+R
+ 1
+oq 1
+As 8
+Ro 4
+g  1
+i! 4
+Cr 4
+iH 3
+Hu 3
+
+j 3
+Di 23
+Ti 4
+[C 1
+iD 2
+Ve 11
+
+V 13
+Va 6
+Me 20
+Bi 4
+Tu 13
+[D 3
+FI 4
+RO 2
+Co 11
+Vu 4
+?c 2
+?C 6
+iY 7
+r? 6
+?v 1
+iL 2
+Pr 9
+iG 1
+Gr 6
+Gu 3
+lq 4
+nn 5
+ye 15
+Ay 7
+y! 8
+ah 9
+?Y 5
+So 4
+?u 1
+Ja 4
+eh 2
+z, 2
+s[ 2
+[1 1
+1] 1
+]. 5
+ps 2
+Mu 1
+Hi 3
+i? 7
+Ad 1
+iB 2
+sn 1
+uf 7
+Ta 3
+Er 4
+An 6
+[2 1
+2] 1
+r: 8
+At 1
+n: 4
+d; 3
+Vi 1
+?y 1
+iJ 2
+iP 3
+Pu 2
+
+R 7
+ _ 9
+_s 4
+o_ 6
+_. 14
+Gi 1
+(p 1
+a) 1
+)  3
+?. 4
+ey 11
+Fu 1
+Ar 14
+Ob 1
+a[ 1
+[3 1
+3] 1
+Na 2
+z. 6
+Sa 6
+[R 1
+JU 1
+Ne 3
+?D 1
+mn 4
+IV 2
+V. 2
+.- 6
+-- 8
+-A 1
+HI 1
+MN 1
+iS 2
+lb 1
+
+G 5
+Gl 3
+z? 1
+l! 2
+OD 1
+?T 2
+Et 1
+In 1
+Vo 2
+l? 3
+?A 1
+
+I 1
+Ig 1
+ Q 4
+OM 5
+MB 5
+BR 5
+E. 1
+?e 4
+
+O 2
+OT 3
+uj 4
+?S 2
+[H 2
+Ab 4
+D. 31
+?M 1
+Os 1
+?h 1
+gm 1
+ " 29
+"L 5
+," 1
+"  5
+O
+ 1
+
+J 1
+_S 1
+ou 1
+n_ 1
+_  4
+Em 2
+y, 1
+[_ 3
+_c 1
+a_ 3
+[O 1
+Ot 1
+l; 4
+xo 1
+e[ 1
+[4 1
+4] 1
+]; 1
+[P 1
+N, 1
+_y 1
+Oh 1
+ih 2
+Ei 1
+gh 1
+D
+ 2
+L
+ 1
+oh 1
+Ce 3
+oe 17
+u! 1
+xh 1
+rj 1
+yi 1
+_a 1
+u_ 1
+_] 1
+_A 2
+.i 1
+iV 1
+dq 1
+
+( 1
+s_ 5
+.) 3
+?a 1
+o[ 1
+[5 1
+5] 1
+ * 5
+*  4
+*
+ 1
+1  1
+ 2 1
+2  1
+Eu 1
+ 3 2
+3  2
+Cl 1
+Pl 2
+(v 1
+Ci 1
+n) 1
+pc 1
+ 4 2
+4  1
+_L 1
+tc 1
+c. 1
+_h 1
+_G 1
+Ge 1
+_, 1
+p. 1
+4. 1
+ 5 1
+5  1
+." 10
+"i 3
+?" 1
+"
+ 8
+(C 1
+Ch 1
+-H 1
+)
+ 2
+Id 1
+n- 1
+-h 1
+M. 1
+ F 25
+Fa 29
+t
+ 1
+St 2
+Go 8
+th 9
+zg 4
+"n 1
+t  19
+"s 1
+"E 6
+ss 1
+(E 1
+t. 2
+"G 1
+"F 2
+d: 1
+"Q 1
+t, 2
+"P 2
+"C 1
+O! 1
+xa 1
+"M 3
+cb 1
+h. 1
+"O 1
+Oy 1
+-_ 7
+_M 6
+._ 1
+_F 1
+t_ 3
+!- 2
+t; 1
+iF 2
+t! 2
+!" 1
+a" 1
+"e 1
+Fr 1
+"S 1
+"D 1
+S
+ 1

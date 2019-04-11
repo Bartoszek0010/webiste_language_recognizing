@@ -10,6 +10,7 @@
 		BB27B87C2258F78600E69C86 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB27B87B2258F78600E69C86 /* main.cpp */; };
 		BB27B8842258F7A700E69C86 /* FileReader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB27B8822258F7A700E69C86 /* FileReader.cpp */; };
 		BB27B8872258F8B900E69C86 /* TxtFileReader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB27B8852258F8B900E69C86 /* TxtFileReader.cpp */; };
+		BBB2B8DB225CBBAD0070A6F0 /* TxtFileLetReader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBB2B8D9225CBBAD0070A6F0 /* TxtFileLetReader.cpp */; };
 		BBC94E1F2259091700B32B21 /* LanguageDB.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBC94E1D2259091700B32B21 /* LanguageDB.cpp */; };
 		BBD98D3C225A187F00A9012F /* ReadHTML.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBD98D3A225A187F00A9012F /* ReadHTML.cpp */; };
 /* End PBXBuildFile section */
@@ -33,6 +34,8 @@
 		BB27B8832258F7A700E69C86 /* FileReader.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = FileReader.hpp; sourceTree = "<group>"; };
 		BB27B8852258F8B900E69C86 /* TxtFileReader.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TxtFileReader.cpp; sourceTree = "<group>"; };
 		BB27B8862258F8B900E69C86 /* TxtFileReader.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = TxtFileReader.hpp; sourceTree = "<group>"; };
+		BBB2B8D9225CBBAD0070A6F0 /* TxtFileLetReader.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TxtFileLetReader.cpp; sourceTree = "<group>"; };
+		BBB2B8DA225CBBAD0070A6F0 /* TxtFileLetReader.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = TxtFileLetReader.hpp; sourceTree = "<group>"; };
 		BBC94E1D2259091700B32B21 /* LanguageDB.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LanguageDB.cpp; sourceTree = "<group>"; };
 		BBC94E1E2259091700B32B21 /* LanguageDB.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LanguageDB.hpp; sourceTree = "<group>"; };
 		BBD98D3A225A187F00A9012F /* ReadHTML.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ReadHTML.cpp; sourceTree = "<group>"; };
@@ -78,6 +81,8 @@
 				BBC94E1E2259091700B32B21 /* LanguageDB.hpp */,
 				BBD98D3A225A187F00A9012F /* ReadHTML.cpp */,
 				BBD98D3B225A187F00A9012F /* ReadHTML.hpp */,
+				BBB2B8D9225CBBAD0070A6F0 /* TxtFileLetReader.cpp */,
+				BBB2B8DA225CBBAD0070A6F0 /* TxtFileLetReader.hpp */,
 			);
 			path = language_recognizing;
 			sourceTree = "<group>";
@@ -139,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BBD98D3C225A187F00A9012F /* ReadHTML.cpp in Sources */,
+				BBB2B8DB225CBBAD0070A6F0 /* TxtFileLetReader.cpp in Sources */,
 				BB27B8872258F8B900E69C86 /* TxtFileReader.cpp in Sources */,
 				BBC94E1F2259091700B32B21 /* LanguageDB.cpp in Sources */,
 				BB27B8842258F7A700E69C86 /* FileReader.cpp in Sources */,

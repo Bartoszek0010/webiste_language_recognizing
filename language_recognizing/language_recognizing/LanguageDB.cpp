@@ -30,6 +30,22 @@ LanguageDB::LanguageDB(){
     languages.push_back(txtReaderItalian->readText());
     languagesNames.push_back("italian");
     
+    //english letters
+    reader txtReaderEnglishLet = make_unique<TxtFileLetReader>();
+    txtReaderEnglishLet->setFileName("english2cpp_let.txt");
+    languages_let.push_back(txtReaderEnglishLet->readText());
+    //polish letters
+    reader txtReaderPolishLet = make_unique<TxtFileLetReader>();
+    txtReaderPolishLet->setFileName("polish2cpp_let.txt");
+    languages_let.push_back(txtReaderPolishLet->readText());
+    //spanish letters
+    reader txtReaderSpanishLet = make_unique<TxtFileLetReader>();
+    txtReaderSpanishLet->setFileName("spanish2cpp_let.txt");
+    languages_let.push_back(txtReaderSpanishLet->readText());
+    //italian letters
+    reader txtReaderItalianLet = make_unique<TxtFileLetReader>();
+    txtReaderItalianLet->setFileName("italian2cpp_let.txt");
+    languages_let.push_back(txtReaderItalianLet->readText());
 }
 
 string LanguageDB::checkBigramsCorrect(string text){
@@ -44,6 +60,26 @@ string LanguageDB::checkBigramsCorrect(string text){
         }
     }
     
+    int correctLanguage = maxElement(sums);
+    if(sums.at(correctLanguage) == 0){
+        throw "Can't recognize this language";
+    }
+    return languagesNames.at(correctLanguage);
+}
+
+string LanguageDB::checkBigramsCorrectLet(string text){
+    vector<int> sums;
+    cout<<languages_let.size()<<endl;
+    for(int j=0; j<languages_let.size();j++){
+        sums.push_back(0);
+        for(int i=0; i<text.length() - 1; i++){
+            string tempText;
+            tempText += text[i];
+            tempText += text[i + 1];
+            cout<<tempText<<endl;
+            sums.at(j) += languages_let.at(j)[tempText];
+        }
+    }
     int correctLanguage = maxElement(sums);
     if(sums.at(correctLanguage) == 0){
         throw "Can't recognize this language";

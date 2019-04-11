@@ -31,17 +31,23 @@ int main(int argc, const char * argv[]) {
     ReadHTML html = ReadHTML();
     
     // get url to website, download html  and save to file, read body of html and recognize language
-//    html.setWebsite(getUrl());
-//    html.readAndSave();
-//    string htmlText = html.readHtmlFromFile();
-//    try{
-//        html.readBodyText(htmlText);
-//    } catch (const char* e){
-//        cerr<<e<<endl;
-//    }
-//    string body = html.getBodyText();
-//    string lan = languages.checkBigramsCorrect(body);
-//    cout<<lan<<endl;
+    html.setWebsite(getUrl());
+    html.readAndSave();
+    string htmlText = html.readHtmlFromFile();
+    try{
+        html.readBodyText(htmlText);
+    } catch (const char* e){
+        cerr<<e<<endl;
+    }
+    string body = html.getBodyText();
+    string lan;
+    try{
+         lan = languages.checkBigramsCorrect(body);
+    } catch(const char* e){
+        cerr<<e<<endl;
+    }
+   
+    cout<<lan<<endl;
     
     
     // check recognizing language
