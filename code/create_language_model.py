@@ -12,7 +12,11 @@ def save_model(language, language_name):
     language_correct = language_correct.lower()
     os.chdir(FILE_LOCATION)
 
-    bigrams = fill_dictionary(language_correct, get_unique_dict())
+    bigrams, amount = fill_dictionary(language_correct, get_unique_dict())
+
+    file_name_amount = language_name + '_amount.txt'
+    lan_amount = open(file_name_amount, 'w')
+    lan_amount.write(str(amount))
 
     file_name = language_name + '_model.txt'
     language_lan_model = open(file_name, 'w')
@@ -43,18 +47,45 @@ def fill_dictionary(text, bigrams):
         val = i[1] / amount
         bigrams[i[0]] = val
 
-    return bigrams
+    return bigrams, amount
 
-FILE_LOCATION = os.getcwd()
-os.chdir('../languages')
-english = open('english.txt').read()
-polish = open('polish.txt').read()
-spanish = open('spanish.txt').read()
-italian = open('italian.txt').read()
-# german = open('german.txt').read()
+def learn_model(lan_model, lan_amount, text_model, text_amount, language_name):
+    # unnormalize
+    for i in lan_model.items():
+        val = i[1] * lan_amount
+        lan_model[i[0]] = val
 
-# save_model(english, 'english')
-# save_model(polish, 'polish')
-save_model(spanish, 'spanish')
-save_model(italian, 'italian')
-# save_model(german, 'german')
+    sum_amount = lan_amount + text_amount
+    new_model = lan_model
+
+    # create and normalize new model
+    for i in new_model.items():
+        val = (i[1] + text_model[i[0]]) / sum_amount
+        new_model[i[0]] = val
+    # save to file new model and amount
+    file_name_amount = language_name + '_amount.txt'
+    lan_amount = open(file_name_amount, 'w')
+    lan_amount.write(str(sum_amount))
+
+    file_name = language_name + '_model.txt'
+    language_lan_model = open(file_name, 'w')
+    str_to_save = ''
+    for i in new_model.items():
+        str_to_save += i[0] + ' ' + str(i[1]) + '\n'
+
+    language_lan_model.write(str_to_save)
+
+def main():
+    FILE_LOCATION = os.getcwd()
+    os.chdir('../languages')
+    english = open('english.txt').read()
+    polish = open('polish.txt').read()
+    spanish = open('spanish.txt').read()
+    italian = open('italian.txt').read()
+    # german = open('german.txt').read()
+
+    save_model(english, 'english')
+    save_model(polish, 'polish')
+    save_model(spanish, 'spanish')
+    save_model(italian, 'italian')
+    # save_model(german, 'german')
