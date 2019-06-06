@@ -1,4 +1,4 @@
-unique_list = list('qwertyuiopasdfghjklzxcvbnm,. ?!ęóąśżźćńł')
+unique_list = list('qwertyuiopasdfghjklzxcvbnm,. ?!ęóąśżźćńłàèéìíòùñú')
 bigrams = {}
 unique_list.sort()
 str_to_save = ''
