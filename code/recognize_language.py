@@ -25,12 +25,22 @@ def fill_dictionary(text, bigrams):
         if bg in bigrams.keys():
             bigrams[bg] += 1
             amount += 1
+
     # normalize
     for i in bigrams.items():
         val = i[1] / amount
         bigrams[i[0]] = val
 
     return bigrams
+
+def get_fill_dictionary(text, bigrams):
+    amount = 0
+    for i in range(len(text) - 1):
+        bg = text[i] + text[i + 1]
+        if bg in bigrams.keys():
+            bigrams[bg] += 1
+            amount += 1
+    return bigrams, amount
 
 def get_body_text(url):
     page = urllib.request.urlopen(url).read()
@@ -63,6 +73,7 @@ def difference(txt_model, lan_model):
     dif_values = (txt_values - lan_values)**2
     difference_euclides = math.sqrt(np.sum(dif_values))
     return difference_euclides
+
 
 def main(url):
     txt = get_body_text(url)
