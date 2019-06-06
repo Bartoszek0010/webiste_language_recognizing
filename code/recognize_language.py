@@ -4,6 +4,7 @@ import re
 import urllib.request
 from bs4 import BeautifulSoup
 import math
+import sys
 
 FILE_LOCATION = os.getcwd()
 MODELS = {'english' : 'english_model.txt', 'polish' : 'polish_model.txt', 'spanish' : 'spanish_model.txt',
@@ -63,11 +64,10 @@ def difference(txt_model, lan_model):
     difference_euclides = math.sqrt(np.sum(dif_values))
     return difference_euclides
 
-print("Website: ")
-url = input()
-txt = get_body_text(url)
-model = create_model(txt)
-results = {}
-for mod in MODELS.items():
-    results[mod[0]] = difference(model, get_model(mod[1]))
-print(results)
+def main(url):
+    txt = get_body_text(url)
+    model = create_model(txt)
+    results = {}
+    for mod in MODELS.items():
+        results[mod[0]] = difference(model, get_model(mod[1]))
+    return results
