@@ -1,7 +1,7 @@
 import tkinter as tk
 import os
 import recognize_language
-
+import create_language_model
 SIZE = "500x300"
 HEIGHT = 350
 WIDTH = 500
@@ -26,16 +26,17 @@ def getLanguage():
     other_lang_text.set(other_str)
 
 
-def getOtherLan():
-    print(results)
-    return 'asdfsdf 97\n asdfasdf 92\n sadfasdfsd 22'
 def learnModels():
-    # tanks
-    thanks = tk.Text(window, width = WIDTH, height = 1)
-    thanks.insert(tk.END, 'Thank you, next time languages models will be more accurate!')
-    thanks.config(state = 'disabled')
-    thanks.pack()
-    a = 2
+    url = website.get()
+    txt = recognize_language.get_body_text(url)
+
+    txt = txt.split()
+    txt = ' '.join(txt).lower()
+    correct_language = text_var.get()
+    r, amount = recognize_language.get_fill_dictionary(txt, recognize_language.get_unique_dict())
+    lan_model = recognize_language.get_model(correct_language + '_model.txt')
+    lan_amount = int(open(correct_language + '_amount.txt').read())
+    create_language_model.learn_model(lan_model, lan_amount, r, amount, correct_language)
 # window settings
 window = tk.Tk()
 window.title("Recognizing language of website")
