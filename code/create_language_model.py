@@ -115,6 +115,7 @@ def learn_model_uni(lan_model, lan_amount, text_model, text_amount, language_nam
                 desc="Learning new model part 2"):
         val = (i[1] + text_model[i[0]]) / sum_amount
         new_model[i[0]] = val
+
     # save to file new model and amount
     file_name_amount = language_name + '_amount_uni.txt'
     lan_amount = open(file_name_amount, 'w')
@@ -174,3 +175,18 @@ def main():
     save_model(spanish, 'spanish')
     save_model(italian, 'italian')
 # save_model(german, 'german')
+
+
+# FILE_LOCATION = os.getcwd()
+# os.chdir('../languages')
+# english = open('english.txt').read()
+# polish = open('polish.txt').read()
+# spanish = open('spanish.txt').read()
+# italian = open('italian.txt').read()
+# # german = open('german.txt').read()
+#
+# save_model(english, 'english')
+# save_model(polish, 'polish')
+# save_model(spanish, 'spanish')
+# save_model(italian, 'italian')
+# # save_model(german, 'german')

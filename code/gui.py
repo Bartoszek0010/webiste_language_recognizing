@@ -51,7 +51,6 @@ def learnModels():
     correct_language = text_var.get()
     big_unique, uni_unique = recognize_language.get_unique_dict()
     r_big, amount_big, r_uni, amount_uni = recognize_language.get_fill_dictionary(txt, big_unique, uni_unique)
-
     lan_model_big = recognize_language.get_model(correct_language + '_model.txt')
     lan_model_uni = recognize_language.get_model_uni(correct_language + '_model_uni.txt')
 

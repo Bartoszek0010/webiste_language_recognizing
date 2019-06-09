@@ -55,7 +55,6 @@ def fill_dictionary(text, bigrams, unigrams):
         val = i[1] / amount
         unigrams[i[0]] = val
 
-
     return bigrams, unigrams
 
 
@@ -69,8 +68,8 @@ def get_fill_dictionary(text, bigrams, unigrams):
     amount_uni = 0
     for i in range(len(text)):
         uni = text[i]
-        if bg in unigrams.keys():
-            unigrams[bg] += 1
+        if uni in unigrams.keys():
+            unigrams[uni] += 1
             amount_uni += 1
     return bigrams, amount, unigrams, amount_uni
 
